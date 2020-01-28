@@ -1,21 +1,24 @@
 <template>
-  <div>
-    <Navbar />
-    <router-view/>
+  <div class="contact">
+
+<br>
+this is the contact page
   </div>
 </template>
 
 <script>
 
-import Navbar from './components/Navbar.vue'
+
 export default {
-  name: 'app',
+  name: 'contact',
   components: {
-Navbar
+
   }
 }
 </script>
 
 <style>
-
+.home{
+  text-align: center;
+}
 </style>

@@ -1,21 +1,23 @@
 <template>
-  <div>
-    <Navbar />
-    <router-view/>
+  <div class="about">
+<br>
+this is the about page
   </div>
 </template>
 
 <script>
 
-import Navbar from './components/Navbar.vue'
+
 export default {
-  name: 'app',
+  name: 'about',
   components: {
-Navbar
+
   }
 }
 </script>
 
 <style>
-
+.home{
+  text-align: center;
+}
 </style>
